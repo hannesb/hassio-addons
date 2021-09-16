@@ -1,6 +1,6 @@
 {
   "name": "TVHeadend",
-  "version": "2.0.1-alfa",
+  "version": "2.0.2",
   "slug": "tvheadend",
   "description": "TV streaming server and recorder.",
   "url": "https://github.com/marious1985/addon-tvheadend",
