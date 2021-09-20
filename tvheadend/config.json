@@ -28,6 +28,9 @@
     "system_packages": [],
     "init_commands": []
   },
+  "devices": [
+    "/dev/dvb:/dev/dvb",
+  ],
   "schema": {
     "system_packages": ["str"],
     "init_commands": ["str"]
