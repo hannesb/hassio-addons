@@ -12,6 +12,7 @@
     "i386"
   ],
   "webui": "http://[HOST]:[PORT:9981]/",
+  "full_access": true",
   "privileged": [
     "SYS_ADMIN",
     "SYS_RAWIO",
