@@ -13,7 +13,7 @@
   ],
   "webui": "http://[HOST]:[PORT:9981]/",
  # "usb": true,
-  "privileged": true
+  "privileged": true,
   "ports": {
     "9981/tcp": 9981,
     "9982/tcp": 9982
