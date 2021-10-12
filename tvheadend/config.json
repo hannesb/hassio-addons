@@ -31,7 +31,7 @@
   },
 #  "devices": [
 #    "/dev/dvb"
-  ],
+#  ],
   "schema": {
     "system_packages": ["str"],
     "init_commands": ["str"]
