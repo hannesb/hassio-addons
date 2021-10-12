@@ -12,7 +12,8 @@
     "i386"
   ],
   "webui": "http://[HOST]:[PORT:9981]/",
-  "usb": true,
+ # "usb": true,
+  "privileged": true
   "ports": {
     "9981/tcp": 9981,
     "9982/tcp": 9982
@@ -28,8 +29,8 @@
     "system_packages": [],
     "init_commands": []
   },
-  "devices": [
-    "/dev/dvb"
+#  "devices": [
+#    "/dev/dvb"
   ],
   "schema": {
     "system_packages": ["str"],
