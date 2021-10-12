@@ -12,7 +12,7 @@
     "i386"
   ],
   "webui": "http://[HOST]:[PORT:9981]/",
-  "privileged": "true",
+  "full_access": true,
   "ports": {
     "9981/tcp": 9981,
     "9982/tcp": 9982
