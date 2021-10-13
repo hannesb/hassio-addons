@@ -10,12 +10,15 @@ arch:
   - armv7
   - i386
 webui: 'http://[HOST]:[PORT:9981]/'
-full_access: true
-privileged:
-  - SYS_ADMIN
-  - SYS_RAWIO
-  - SYS_RESOURCE
-  - SYS_MODULE
+#full_access: true
+#privileged:
+#  - SYS_ADMIN
+#  - SYS_RAWIO
+#  - SYS_RESOURCE
+#  - SYS_MODULE
+devices:
+   - /dev/dvb/adapter0
+
 ports:
   9981/tcp: 9981
   9982/tcp: 9982
